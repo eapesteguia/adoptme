@@ -1,5 +1,4 @@
 node_modules/
-/test
 
 logs
 *.log
@@ -10,4 +9,5 @@ logs
 .env.production.local
 .env.local
 
+.vscode
 .vscode-test

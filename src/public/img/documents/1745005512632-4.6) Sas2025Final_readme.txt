@@ -1,0 +1,56 @@
+Hello Everyone.
+
+Due to FM25 being cancelled, i desided to make a minor "one off" update..
+Meaning that it's NOT a direct Sas24 update as i have removed some stuff that i didnt like.
+
+But it also means a few new things and some fixes,adjustments and corrections of things i left undone in Sas24
+
+Enjoy the extended FM24 and Sas2025Final
+
+***** IMPORTANT *****
+There will NOT be a laptop version..
+There will NOT be running support, it is as you see it.
+*********************
+
+List below of info.
+
+----------------------
+Removed from the skin.
+----------------------
+- Continue button above the inbox, "Read all mails button is now feeling lonely"
+- Tactics on the bottom bar in matches as they caused lag for some
+- jersey has been removed from the player popup, How it's only the player face.
+- MODS
+------------------------------------------------
+
+--------------------
+Changed/fixed in the skin.
+--------------------
+- 1 base version of Sas2025Final, 1 with background selector and 1 without
+- Pizza chart dots have been adjusted for 100%, 95% and 85% zoom
+- Bookmark menu has been updated and you can now click the same link over and over again - Thank to BouFitty
+- Player faces/kits on player profil has again the option to pick (face+back, face+backZoomed, face+front or just face) ingame on the arrow.
+- Info bar on Squad page top has been given a darker colour, due to the removal of the background options.
+- Player IQ has been renamed to just IQ on player profil
+- "Scout player button" on player profil is no longer re-clickable after clicking it.
+- Attributes tab in player compare has been adjusted and will not show ... instead of numbers.
+- Popup after instant result "should" no longer come up blank randomly.. i hope!
+- Player numbers on Kits have been changed as the old one caused issues with some kits designs.
+- Bits and pieces has been adjusted
+------------------------------------------------
+
+------------------------
+Newly added to the skin.
+------------------------
+- Inbox mail - player trainings report has been changed.
+- Inbox mail - Nxgn page has been updated - Thank to BGN/justHowie
+- "Add to default short list" button added on "scouting centre(list view), players in range, Scouted players, Recruitment focus, player popup and player profil" - Button idea by BGN
+- "Add to default short list" button added to "Syc - National Team Scouting" and to Selection info view, incase ppl wanted a base to build a view from with the button on.
+- Player compare screen has had a face lift
+- Staff ID in mails has been re-added, but made non interactive, so it wont interfere with hitting spacebar to continue
+- Passing network has been added to the halftime and full time match screen next to the formation at the bottom. Thank to TCSSkin
+- Match sharpness/fitness has gotten a name finally and has been moved from injuries to sas subfolder in views 
+- Team squad has also returned and is also in the sas subfolder in views
+-----------------------------------------------
+
+Enjoy!

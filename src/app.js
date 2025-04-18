@@ -1,6 +1,9 @@
 import express from "express";
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
+import swaggerJSDoc from "swagger-jsdoc";
+import swaggerUiExpress from "swagger-ui-express";
+import swaggerOptions from "./utils/swaggerDocs.js";
 
 import config from "./config/config.js";
 import errorHandler from "./middlewares/errorHandler.js";
@@ -24,12 +27,15 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(loggerHandler);
 
+const specs = swaggerJSDoc(swaggerOptions);
+app.use("/apidocs", swaggerUiExpress.serve, swaggerUiExpress.setup(specs));
+
 app.use("/api/users", usersRouter);
 app.use("/api/pets", petsRouter);
 app.use("/api/adoptions", adoptionsRouter);
 app.use("/api/sessions", sessionsRouter);
 app.use("/api/mocks", mocksRouter);
-app.use("/loggerTest", loggerRouter);
+app.use("/api/loggerTest", loggerRouter);
 
 app.use(errorHandler);
 

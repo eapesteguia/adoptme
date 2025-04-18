@@ -59,12 +59,11 @@ const createPetWithImage = async (req, res, next) => {
       return res
         .status(400)
         .send({ status: "error", error: "Incomplete values" });
-    console.log(file);
     const pet = PetDTO.getPetInputFrom({
       name,
       specie,
       birthDate,
-      image: `${__dirname}/../public/img/${file.filename}`,
+      image: `${__dirname}/../public/img/pets/${file.filename}`,
     });
     console.log(pet);
     const result = await petsService.create(pet);

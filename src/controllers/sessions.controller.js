@@ -24,7 +24,7 @@ const register = async (req, res, next) => {
     };
     let result = await usersService.create(user);
     req.logger.info(result);
-    res.send({ status: "success", payload: result._id });
+    res.send({ status: "success", payload: { _id: result._id } });
   } catch (error) {
     req.logger.error(`Error in register: ${error.message}`);
     return next(error);
